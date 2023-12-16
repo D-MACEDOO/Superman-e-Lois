@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    line-height: 25px;
+    font-family: sans-serif;
+}
+h1{
+    margin: 20px;
+}
+.secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.topo{
+    background-color: blueviolet;
+    color: white;
+    padding: 2%;
+}
+.tituloTopoSpan{
+    padding-right: 10%;
+    padding-left: 5%;
+}
+.titulos{
+    text-align: center;
+}
+.topo a{
+    text-decoration: none;
+    padding: 0.5%;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    margin:1%;
+    color: blueviolet;
+    background-color:#ffffff
+}
+.imgGrande{
+    width: 100%;
+}
+.galeria{
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto 20px auto;
+}
+.galeria img{
+    width: 315px;
+    margin: 10px;
+    box-shadow: 10px 10px 20px #4d4c4c
+}
+.baixo{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 1%;
+    margin-top: 1%;
+}
